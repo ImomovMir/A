@@ -79,8 +79,8 @@ html, body {
 
     /*TODO:*/
     /* 🚀 Rasmni fon sifatida qo‘shish */
-    background-image: url("https://fartbaby.site/staticfiles/images/portret.jpg") !important;
-    background-size: cover;  /* Rasmning aniq o'lchamini berish*/
+    background-image: url("https://fartbaby.site/staticfiles/images/portret.jpg?v=1") !important;
+    background-size: 1380px 600px;  /* Rasmning aniq o'lchamini berish*/
     background-position: center;  /* Markazga joylash */
     background-repeat: no-repeat; /* Takrorlanishiga yo‘l qo‘ymaslik */
 
