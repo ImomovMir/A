@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCrypto - The Future of Crypto</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- 🚀 Favicon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.ico' %}">
+</head>
+<body>
+    <!-- 🚀 Navbar -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="#home">
+                <img src="{% static 'images/logo.jpg' %}" alt="Sorry">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#values">Our Values</a></li>
+            <li><a href="#tokenomics">Tokenomics</a></li>
+            <li><a href="#how-to-buy">How to Buy</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <!-- 🚀 Background video
+        <video autoplay muted loop class="hero-video">
+            <source src="{% static 'images/background.mp4' %}" type="video/mp4">
+            <source src="{% static 'images/background.webm' %}" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+        -->
+    </header>
+
+    <!-- 🚀 Asosiy kontent -->
+    <main>
+        <!-- 🚀 Home qismi -->
+        <section id="home" class="home">
+            <!-- Background Image -->
+            <img src="{% static 'images/logo2.jpg' %}" alt="Background" class="home-bg">
+            
+            <div class="home-content">
+                <h1>FARTBABY</h1>
+                <p>Baby Fart Boy</p>
+
+                <!-- Social linklar -->
+                <div class="social-links">
+                    <a href="https://t.me/fartbaby_solana" target="_blank" class="social-btn telegram">
+                        <img src="{% static 'images/telegram.webp' %}" alt="Telegram">
+                    </a>
+                    <a href="https://x.com/baby_fart_boy" target="_blank" class="social-btn twitter">
+                        <img src="{% static 'images/x.png' %}" alt="Twitter">
+                    </a>
+                    <a href="https://dexscreener.com" target="_blank" class="social-btn dexscreener">
+                        <img src="{% static 'images/d.png' %}" alt="Dexscreener">
+                    </a>
+                    <a href="https://moonshoot.com" target="_blank" class="social-btn moonshoot">
+                        <img src="{% static 'images/logo2.jpg' %}" alt="Moonshoot">
+                    </a>
+                </div>
+
+                <!-- Crypto address copy -->
+                <div class="copy-address">
+                <input type="text" id="crypto-address" value="Soon Ca" readonly> <!--TODO:-->
+                    <button onclick="copyAddress()">Copy</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 🚀 About qismi -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Before the rise of Fartboy, there was BABY FART BOY, 
+                a playful little coin with big ambitions. 
+                From humble beginnings, he brought joy and excitement to early believers, 
+                turning giggles into gains and community into strength.</p>
+        </section>
+
+        <section id="values" class="values">
+            <div class="values-container">
+                <h2>Our Values</h2>
+                <p class="values-intro">
+                    Our values are the guiding principles that shape everything we do. 
+                    From fostering a community-centric approach to embracing continuous learning, 
+                    we are committed to creating a platform that reflects these core beliefs.
+                </p>
+        
+                <div class="values-list">
+                    <div class="value-box">
+                        <h3>Community-Centric</h3>
+                        <p>We prioritize the creation and nurturing of vibrant communities, 
+                           believing that strong connections are the foundation of a meaningful online experience.</p>
+                    </div>
+                    <div class="value-box">
+                        <h3>Innovation</h3>
+                        <p>We embrace creativity and innovation, constantly seeking new ways 
+                           to enhance and redefine the way people interact with the digital world.</p>
+                    </div>
+                    <div class="value-box">
+                        <h3>Be Supportive</h3>
+                        <p>We are committed to building an inclusive platform where everyone is welcome, 
+                           and diversity is celebrated.</p>
+                    </div>
+                    <div class="value-box">
+                        <h3>Always Learning</h3>
+                        <p>We embrace a culture of continuous learning and improvement, 
+                           constantly seeking knowledge and new experiences to enhance our platform and ourselves.</p>
+                    </div>
+                    <div class="value-box">
+                        <h3>User Empowerment</h3>
+                        <p>We empower our users by providing them with the tools and freedom 
+                           to customize their experience and express their individuality.</p>
+                    </div>
+                    <div class="value-box">
+                        <h3>Transparency</h3>
+                        <p>We value openness and honesty in all our interactions, 
+                           fostering trust and accountability within our community.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tokenomics" class="tokenomics">
+            <div class="tokenomics-container">
+                <h2>Tokenomics</h2>
+                <p class="tokenomics-intro">Based fartbaby is 100% fair launched:</p>
+                
+                <ul class="tokenomics-list">
+                    <li><strong>Supply:</strong> 420,690,000,000,000 Tokens.</li>
+                    <li><strong>0% tax.</strong></li>
+                    <li><strong>Liquidity locked.</strong></li>
+                    <li><strong>Contract ownership renounced.</strong></li>
+                    <li><strong>No minting.</strong></li>
+                    <li><strong>100% of token supply launched in LP.</strong></li>
+                    <li><strong>Snipers from launch blacklisted.</strong></li>
+                    <li><strong>No pre-sale, no private funding round, no shady deals.</strong> No insider selling, ever.</li>
+                </ul>
+        
+                <p class="tokenomics-footer">
+                    All of this means our team are incentivized to make token a success–we’re here for the long haul!
+                </p>
+            </div>
+        </section>
+
+
+        <section id="how-to-buy" class="how-to-buy">
+            <div class="how-container">
+                <h2>How to Buy Based $PEPE</h2>
+                
+                <ol class="how-list">
+                    <li>
+                        <h3>Create a wallet!</h3>
+                        <p>If you’ve not got one yet, download any supported crypto wallet – such as MetaMask, Rainbow Wallet, or Coinbase Wallet!</p>
+                    </li>
+                    <li>
+                        <h3>Get some ETH or USDC on the BASE Chain!</h3>
+                        <p>This part is on you – mine some fiat and convert it to ETH or USDC! Next, withdraw or bridge it to the BASE Chain!</p>
+                    </li>
+                    <li>
+                        <h3>Connect to Uniswap on the BASE Chain!</h3>
+                        <p>Visit Uniswap, and connect your wallet – make sure you’re on the BASE Chain!</p>
+                    </li>
+                    <li>
+                        <h3>Add Based $PEPE to your token list!</h3>
+                        <p>First, hit the “Select Token” button on Uniswap to pop the token list! Next, copy Based $PEPE’s Contract Address into the input box – then select it!</p>
+                    </li>
+                    <li>
+                        <h3>Swap ETH or any other token for Based $PEPE!</h3>
+                        <p>Remember: double-check the contract address matches the one on this website!! You’ve made it. Hit that swap button you based beast, and welcome to Based $PEPE.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <p>&copy; 2024 All rights reserved.</p>
+        
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#values">Our Values</a></li>
+                    <li><a href="#tokenomics">Tokenomics</a></li>
+                    <li><a href="#how-to-buy">How to Buy</a></li>
+                </ul>
+            </div>
+        </footer>
+    
+        
+    </main>
+
+    <!-- 🚀 JS -->
+    <script src="{% static 'js/script.js' %}"></script>
+
+</body>
+</html>
