@@ -79,7 +79,7 @@ html, body {
 
     /*TODO:*/
     /* 🚀 Rasmni fon sifatida qo‘shish */
-    background-image: url("../images/portret.jpg");  
+    background-image: url("https://imomovmir.github.io/A/static/images/portret.jpg");  
     background-size: 1380px 600px;  /* Rasmning aniq o'lchamini berish*/
     background-position: center;  /* Markazga joylash */
     background-repeat: no-repeat; /* Takrorlanishiga yo‘l qo‘ymaslik */
